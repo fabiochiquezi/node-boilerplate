@@ -1,3 +1,4 @@
+import { database } from './database'
 import dotenv from 'dotenv'
 import express from 'express'
 
@@ -6,7 +7,10 @@ const app = express()
 app.use(express.json())
 
 // Routes
-app.get('/', (req, res) => res.send('Hi there'))
+app.get('/', (req, res) => {
+  database.connect()
+  res.send('Hi there')
+})
 
 // Run
 app.listen(
