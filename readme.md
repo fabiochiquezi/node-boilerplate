@@ -39,3 +39,10 @@ Initial boilerplate to node project with mysql
 ## Request
 - Node v. 16.5.0
 - Docker v. 20.10.7
+
+&nbsp;
+<!--  -->
+
+## About
+- mysql-volume (folder): save your data from your database docker
+- mysql-initial (folder): save your sql database

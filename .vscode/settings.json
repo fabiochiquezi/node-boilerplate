@@ -5,11 +5,12 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-
         "yarn-error.log": true,
         "yarn.lock": true,
+
         ".gitignore": true,
         ".vscode": true,
+        "readme.md": true,
 
         "tsconfig.json": true,
         "jest.config.ts": true,
@@ -22,5 +23,8 @@
         "Dockerfile": true,
 
         ".env": true,
+        "package.json": true,
+        "mysql-volume": true,
+        "mysql-initial": true
     }
 }
