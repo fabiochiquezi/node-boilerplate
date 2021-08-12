@@ -3,7 +3,7 @@
 
 ## Start project: steps
 1. clone repo (git clone https://github.com/fabiochiquezi/node-boilerplate.git)
-2. create a .env file (touch .env)
+2. change var's .env to your database work with nodeJS
 3. install project (yarn install)
 4. run project: (yarn docker || yarn dev2)
 
